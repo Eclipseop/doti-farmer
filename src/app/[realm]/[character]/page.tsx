@@ -112,7 +112,9 @@ const Page = async ({
         ))}
       </div>
       <div>
-        <p>You are missing {missingCount} mounts.</p>
+        <p>
+          You are missing {missingCount}/{POSSIBLE_MOUNTS.length} mounts.
+        </p>
         <p>
           On average, it will take you {missingCount * DROP_CHANCE} runs to
           complete the collection.
