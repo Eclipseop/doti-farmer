@@ -21,7 +21,7 @@ export type QCMountInfo = {
 
 const POSSIBLE_MOUNTS: QCMountInfo[] = [
   {
-    name: "Deathcharger's Reins",
+    name: "Rivendare's Deathcharger",
     href: "https://www.wowhead.com/item=13335/deathchargers-reins",
   },
   {
