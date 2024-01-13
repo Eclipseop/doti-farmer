@@ -101,7 +101,7 @@ const Page = async ({
   ).length;
 
   return (
-    <div className="flex flex-col items-center mx-auto space-y-4">
+    <div className="flex flex-col items-center mx-auto space-y-4 text-center">
       <div>
         {POSSIBLE_MOUNTS.map((pm) => (
           <MountEntry
@@ -111,8 +111,8 @@ const Page = async ({
           />
         ))}
       </div>
-      <div className="text-center">
-        <p>You are missing {missingCount}.</p>
+      <div>
+        <p>You are missing {missingCount} mounts.</p>
         <p>
           On average, it will take you {missingCount * DROP_CHANCE} runs to
           complete the collection.
