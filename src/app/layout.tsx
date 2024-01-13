@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <script async src="https://wow.zamimg.com/js/tooltips.js" />
       </head>
-      <body className={`${inter.className} bg-black text-white`}>
+      <body className={`${inter.className} bg-black text-white py-2`}>
         {children}
       </body>
     </html>
