@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen justify-center -mt-4 space-y-4">
+    <div className="flex flex-col items-center justify-center grow space-y-4">
       <h1 className="text-6xl font-bold">DOTI Farmer</h1>
       <h2 className="text-xl text-gray-300">
         Find out what you can get from{" "}

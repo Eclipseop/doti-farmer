@@ -30,7 +30,7 @@ const Page = async ({
   ).length;
 
   return (
-    <div className="flex flex-col items-center mx-auto space-y-4 text-center">
+    <div className="flex flex-col items-center mx-auto space-y-4 text-center grow">
       <div>
         {possibleMounts.map((pm) => (
           <MountEntry
