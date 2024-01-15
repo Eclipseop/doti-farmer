@@ -2,6 +2,8 @@ import MountEntry from "@/components/mount-entry";
 import { MountDataResponse } from "@/types/mount";
 import possibleMounts from "../../../../public/possible-mounts.json";
 
+const DROP_CHANCE = 13.333;
+
 const getMountData = async (
   realm: string,
   character: string
@@ -14,8 +16,6 @@ const getMountData = async (
 
   return (await data.json()) as MountDataResponse;
 };
-
-const DROP_CHANCE = 13.333;
 
 const Page = async ({
   params,
