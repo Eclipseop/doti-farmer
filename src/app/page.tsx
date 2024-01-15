@@ -1,14 +1,16 @@
+"use client";
+
 import servers from "../../public/servers.json";
-import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Home = () => {
+  const router = useRouter();
   const handleSubmit = async (formData: FormData) => {
-    "use server";
     const realm = formData.get("realm");
     const character = formData.get("character");
 
     if (!realm || !character) return;
-    redirect(`/${realm}/${character}`);
+    router.push(`/${realm}/${character}`);
   };
 
   return (
