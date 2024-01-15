@@ -26,3 +26,8 @@ export interface Mount2 {
 export interface Key {
   href: string;
 }
+
+export type WowHeadMountInfo = {
+  name: string;
+  href: string;
+};

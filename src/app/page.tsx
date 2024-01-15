@@ -1,4 +1,4 @@
-import * as servers from "../../public/servers.json";
+import servers from "../../public/servers.json";
 import { redirect } from "next/navigation";
 
 const Home = () => {

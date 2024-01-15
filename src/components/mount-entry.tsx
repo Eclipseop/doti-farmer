@@ -1,7 +1,7 @@
-import { QCMountInfo } from "@/app/[realm]/[character]/page";
+import { WowHeadMountInfo } from "@/types/mount";
 
 type MountEntryProps = {
-  info: QCMountInfo;
+  info: WowHeadMountInfo;
   collected: boolean;
 };
 
