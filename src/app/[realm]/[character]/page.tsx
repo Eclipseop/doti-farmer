@@ -14,7 +14,7 @@ const getMountData = async (
     }`
   );
 
-  return (await data.json()) as MountDataResponse;
+  return data.json() as Promise<MountDataResponse>;
 };
 
 const Page = async ({
